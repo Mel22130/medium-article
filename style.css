@@ -1,0 +1,75 @@
+/* Bannière */
+.banner {
+  background-image: url('image-de-fond.jpg');
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-content {
+  text-align: center;
+  color: white;
+}
+
+.banner-content h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.banner-content p {
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+/* Conteneur */
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+/* Titres */
+h2 {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+/* Paragraphes */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+/* Liens */
+a {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to bottom, #FFC107, #FFA000);
+  color: white;
+  margin-right: 16px;
+}
+
+a:hover {
+  background-image: linear-gradient(to bottom, #FFA000, #FF8F00);
+}
+
+/* Bouton */
+.button {
+  background-image: linear-gradient(to bottom, #2196F3, #1976D2);
+}
+
+.button:hover {
+  background-image: linear-gradient(to bottom, #1976D2, #0D47A1);
+}
+
+/* Media queries */
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 0 16px;
+  }
+}
